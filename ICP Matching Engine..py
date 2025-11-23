@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer, util
 import json
 
 # --- Configuration ---
-COMPANY_DATA_PATH = "Task-1-data(130 company).csv"
+COMPANY_DATA_PATH = "Data/Task-1-data(130 company).csv"
 EMBEDDING_MODEL = 'BAAI/bge-base-en-v1.5'
 
 
