@@ -11,6 +11,9 @@ from typing import List, Dict
 st.set_page_config(page_title="ICP Matching Engine", layout="wide")
 st.title("🔥 Advanced ICP Matching Engine")
 
+DATA_PATH = "Data/Task-1-data(130 company).csv"   # Fixed data path
+
+
 # --- MMR Explanation Function ---
 def generate_mmr_explanation(
     query_description: str,
@@ -18,13 +21,25 @@ def generate_mmr_explanation(
     model: SentenceTransformer,
     top_n: int = 4
 ) -> str:
-    sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s', company_description)
+
+    sentences = re.split(
+        r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s',
+        company_description
+    )
     sentences = [s.strip() for s in sentences if s.strip()]
     if len(sentences) <= 1:
         return company_description.strip()
 
-    sentence_embeddings = model.encode(sentences, convert_to_tensor=True, normalize_embeddings=True)
-    query_embedding = model.encode(query_description, convert_to_tensor=True, normalize_embeddings=True)
+    sentence_embeddings = model.encode(
+        sentences,
+        convert_to_tensor=True,
+        normalize_embeddings=True
+    )
+    query_embedding = model.encode(
+        query_description,
+        convert_to_tensor=True,
+        normalize_embeddings=True
+    )
 
     relevance_scores = util.cos_sim(query_embedding, sentence_embeddings)[0]
     selected_indices = []
@@ -32,11 +47,14 @@ def generate_mmr_explanation(
     selected_indices.append(best_idx)
 
     for _ in range(top_n - 1):
-        candidate_indices = [i for i in range(len(sentences)) if i not in selected_indices]
+        candidate_indices = [
+            i for i in range(len(sentences))
+            if i not in selected_indices
+        ]
         if not candidate_indices:
             break
 
-        max_mmr = -float('inf')
+        max_mmr = -float("inf")
         best_candidate_idx = -1
         selected_embeds = sentence_embeddings[selected_indices]
 
@@ -56,9 +74,12 @@ def generate_mmr_explanation(
     explanation = " ".join(selected_sentences)
     return f"This company matches the ICP because: {explanation}"
 
-# Sidebar options
-st.sidebar.header("Configuration")
-uploaded_file = st.sidebar.file_uploader("Upload company CSV", type=["csv"])
+
+# --- Sidebar Configuration ---
+st.sidebar.header("Configuration (Step 1)")
+
+st.sidebar.write("**Data Path:** `Data/Task-1-data(130 company).csv` (Auto Loaded)")
+
 model_option = st.sidebar.selectbox("Select Embedding Model", [
     "BAAI/bge-base-en-v1.5",
     "BAAI/bge-small-en-v1.5"
@@ -77,24 +98,38 @@ top_n = st.sidebar.number_input(
     value=4
 )
 
-if uploaded_file is not None:
-    df = pd.read_csv(uploaded_file)
-    st.success(f"Loaded {len(df)} companies.")
+process_button = st.sidebar.button("🚀 PROCESS")
 
-    # Combine descriptions directly (clean_text removed)
+
+# --- MAIN PROCESSING ---
+if process_button:
+
+    st.success("Processing started...")
+
+    # Load data
+    df = pd.read_csv(DATA_PATH)
+    st.info(f"Loaded {len(df)} companies.")
+
+    # Combine descriptions directly
     df['combined_features'] = df.apply(
         lambda r: f"{str(r['short_description'])} Industry: {str(r['industry'])}. Tech: {str(r.get('tech_stack', ''))}.",
         axis=1
     )
 
     # Load model
-    st.info(f"Loading embedding model: {model_option} ...")
-    model = SentenceTransformer(model_option)
+    with st.spinner(f"Loading embedding model: {model_option} ..."):
+        model = SentenceTransformer(model_option)
 
     # Encode embeddings
-    company_features = df['combined_features'].tolist()
-    company_embeddings = model.encode(company_features, convert_to_tensor=True, show_progress_bar=True, batch_size=32)
-    icp_embedding = model.encode(icp_description, convert_to_tensor=True)
+    with st.spinner("Encoding company descriptions..."):
+        company_features = df['combined_features'].tolist()
+        company_embeddings = model.encode(
+            company_features,
+            convert_to_tensor=True,
+            show_progress_bar=True,
+            batch_size=32
+        )
+        icp_embedding = model.encode(icp_description, convert_to_tensor=True)
 
     # Similarity
     cosine_scores = util.cos_sim(icp_embedding, company_embeddings)[0]
@@ -104,21 +139,21 @@ if uploaded_file is not None:
     df_ranked = df.sort_values(by='similarity_score', ascending=False).reset_index(drop=True)
 
     # Generate explanations
-    st.info("Generating explanations for top companies...")
-    results: List[Dict] = []
+    with st.spinner("Generating explanations for top companies..."):
+        results: List[Dict] = []
 
-    for _, row in df_ranked.iterrows():
-        explanation = generate_mmr_explanation(
-            icp_description,
-            str(row['short_description']),
-            model,
-            top_n=top_n
-        )
-        results.append({
-            "company_name": row['company_name'],
-            "similarity_score": round(row['similarity_score'], 4),
-            "explanation": explanation
-        })
+        for _, row in df_ranked.iterrows():
+            explanation = generate_mmr_explanation(
+                icp_description,
+                str(row['short_description']),
+                model,
+                top_n=top_n
+            )
+            results.append({
+                "company_name": row['company_name'],
+                "similarity_score": round(row['similarity_score'], 4),
+                "explanation": explanation
+            })
 
     # Show top 10
     st.subheader("Top 10 Matching Companies")
@@ -128,11 +163,12 @@ if uploaded_file is not None:
     # JSON download
     json_output = json.dumps(results, indent=4)
     st.download_button(
-        "📥 Download Full JSON",
+        "📥 Download Full JSON Output",
         data=json_output,
         file_name="icp_ranked_companies.json",
         mime="application/json"
     )
 
+
 else:
-    st.warning("Please upload a company CSV file to proceed.")
+    st.warning("Click the **Process** button after configuring the inputs.")
