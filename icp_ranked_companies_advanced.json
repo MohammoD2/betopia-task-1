@@ -1,0 +1,652 @@
+[
+    {
+        "company_name": "PriyoShop",
+        "similarity_score": 0.7951,
+        "explanation": "Bangladeshi marketplace offering fashion, electronics, and daily necessities online."
+    },
+    {
+        "company_name": "Gul Ahmed",
+        "similarity_score": 0.778,
+        "explanation": "Pakistani textile and fashion brand selling apparel online, also shipping to Bangladesh."
+    },
+    {
+        "company_name": "Rangs",
+        "similarity_score": 0.7743,
+        "explanation": "Bangladesh-based multi-industry company selling electronics, home appliances, and fashion online."
+    },
+    {
+        "company_name": "Bagdoom",
+        "similarity_score": 0.7711,
+        "explanation": "Bangladeshi online shopping platform for fashion, electronics, and lifestyle products."
+    },
+    {
+        "company_name": "Ajkerdeal",
+        "similarity_score": 0.7655,
+        "explanation": "Bangladeshi e-commerce marketplace with diverse categories, including fashion and electronics."
+    },
+    {
+        "company_name": "Khaadi",
+        "similarity_score": 0.764,
+        "explanation": "Bangladeshi fashion and lifestyle brand with e-commerce presence for clothing and accessories."
+    },
+    {
+        "company_name": "StyleMe",
+        "similarity_score": 0.7635,
+        "explanation": "Bangladesh-based online fashion store for women\u2019s clothing and accessories."
+    },
+    {
+        "company_name": "Daraz",
+        "similarity_score": 0.7589,
+        "explanation": "E-commerce giant operating in South Asia, with strong fashion, electronics, and logistics presence."
+    },
+    {
+        "company_name": "Nandos Online",
+        "similarity_score": 0.7558,
+        "explanation": "Food and fashion delivery integrated e-commerce platform in Bangladesh."
+    },
+    {
+        "company_name": "Evaly",
+        "similarity_score": 0.7544,
+        "explanation": "Bangladeshi e-commerce marketplace offering flash sales and tech-driven shopping experiences."
+    },
+    {
+        "company_name": "Vogue Bangladesh",
+        "similarity_score": 0.7532,
+        "explanation": "Bangladeshi fashion media + e-commerce platform selling curated apparel and accessories."
+    },
+    {
+        "company_name": "Zalando",
+        "similarity_score": 0.7502,
+        "explanation": "Europe-based online fashion marketplace offering multi-brand apparel and e-commerce solutions."
+    },
+    {
+        "company_name": "Shein",
+        "similarity_score": 0.7415,
+        "explanation": "Fast-fashion e-commerce platform selling affordable clothing globally, leveraging digital supply chain."
+    },
+    {
+        "company_name": "Levi\u2019s",
+        "similarity_score": 0.7407,
+        "explanation": "Global fashion brand selling premium denim, apparel, and e-commerce products."
+    },
+    {
+        "company_name": "BDFashion",
+        "similarity_score": 0.7406,
+        "explanation": "Bangladeshi online fashion retailer, providing curated apparel and accessories."
+    },
+    {
+        "company_name": "ChicMe",
+        "similarity_score": 0.739,
+        "explanation": "Online fashion store selling women\u2019s apparel and accessories worldwide."
+    },
+    {
+        "company_name": "Jumia",
+        "similarity_score": 0.7343,
+        "explanation": "Pan-African e-commerce platform selling fashion, electronics, and more online."
+    },
+    {
+        "company_name": "Farfetch",
+        "similarity_score": 0.7279,
+        "explanation": "Luxury fashion e-commerce platform connecting consumers to high-end boutiques worldwide."
+    },
+    {
+        "company_name": "FashionValet",
+        "similarity_score": 0.7212,
+        "explanation": "Southeast Asia-based fashion e-commerce platform offering apparel and accessories."
+    },
+    {
+        "company_name": "Namshi",
+        "similarity_score": 0.7209,
+        "explanation": "Middle East online fashion store selling clothing, footwear, and accessories."
+    },
+    {
+        "company_name": "Amazon Fashion",
+        "similarity_score": 0.7188,
+        "explanation": "Amazon\u2019s fashion vertical offering global apparel and e-commerce services online."
+    },
+    {
+        "company_name": "H&M",
+        "similarity_score": 0.7137,
+        "explanation": "Swedish fashion giant providing affordable clothing online and offline."
+    },
+    {
+        "company_name": "Chaldal",
+        "similarity_score": 0.7083,
+        "explanation": "Leading online grocery delivery platform in Bangladesh with tech-first supply chain."
+    },
+    {
+        "company_name": "Myntra",
+        "similarity_score": 0.7058,
+        "explanation": "India-based fashion e-commerce platform offering apparel, footwear, and accessories."
+    },
+    {
+        "company_name": "ASOS",
+        "similarity_score": 0.7051,
+        "explanation": "UK-based online fashion and cosmetics retailer, targeting young adults with global e-commerce."
+    },
+    {
+        "company_name": "Uniqlo",
+        "similarity_score": 0.7036,
+        "explanation": "Japanese fashion retailer with global e-commerce presence for apparel and lifestyle products."
+    },
+    {
+        "company_name": "Pathao",
+        "similarity_score": 0.6878,
+        "explanation": "Bangladeshi on-demand delivery, ride-sharing, and logistics platform expanding into e-commerce."
+    },
+    {
+        "company_name": "Forever 21",
+        "similarity_score": 0.6803,
+        "explanation": "American fast-fashion retailer offering clothing, footwear, and e-commerce globally."
+    },
+    {
+        "company_name": "Bolt",
+        "similarity_score": 0.6773,
+        "explanation": "European mobility and e-commerce platform, integrating fashion & services in app ecosystem."
+    },
+    {
+        "company_name": "Shohoz",
+        "similarity_score": 0.645,
+        "explanation": "Bangladesh mobility platform integrating ticketing, ride-hailing, and e-commerce."
+    },
+    {
+        "company_name": "RedBedlam",
+        "similarity_score": 0.6302,
+        "explanation": "Small cross\u2011platform dev studio working on mobile/Web and exploring web3 side\u2011projects."
+    },
+    {
+        "company_name": "Unicsoft",
+        "similarity_score": 0.6222,
+        "explanation": "Software & game studio building Web3 games, metaverse projects, and Unity-based titles."
+    },
+    {
+        "company_name": "Ultra",
+        "similarity_score": 0.6183,
+        "explanation": "Platform + marketplace for PC games + web3; supports resales of games + blockchain integration."
+    },
+    {
+        "company_name": "Antier Solutions",
+        "similarity_score": 0.6092,
+        "explanation": "Blockchain development firm doing game dev + DeFi integration + Web3 gaming products."
+    },
+    {
+        "company_name": "Maticz Technologies",
+        "similarity_score": 0.6086,
+        "explanation": "Web & mobile dev agency with a strong web3 gaming vertical; they build smart contracts + games."
+    },
+    {
+        "company_name": "CCP Games",
+        "similarity_score": 0.6054,
+        "explanation": "Veteran studio (EVE Online), exploring web3 economy and persistent universe systems."
+    },
+    {
+        "company_name": "Animoca Brands \u2013 Blowfish Studios",
+        "similarity_score": 0.6021,
+        "explanation": "Subsidiary of Animoca, working on mid-size Web3 and mobile titles."
+    },
+    {
+        "company_name": "Metaplay Labs",
+        "similarity_score": 0.5977,
+        "explanation": "Web3 game development studio building cross-chain P2E titles with strong UX."
+    },
+    {
+        "company_name": "Netmarble",
+        "similarity_score": 0.5971,
+        "explanation": "Large mobile game publisher; experimenting with blockchain-based collectibles and player-owned items."
+    },
+    {
+        "company_name": "Nazara Technologies",
+        "similarity_score": 0.5967,
+        "explanation": "Large Indian games company; runs many mobile titles, some Unity-powered; also invests in Web3."
+    },
+    {
+        "company_name": "Improbable",
+        "similarity_score": 0.5959,
+        "explanation": "Infrastructure company that builds spatial simulation tools; exploring blockchain for virtual world persistence."
+    },
+    {
+        "company_name": "Illogika Studios",
+        "similarity_score": 0.5927,
+        "explanation": "Canadian studio making narrative + strategy games; interested in web3 asset integration."
+    },
+    {
+        "company_name": "Eden Games",
+        "similarity_score": 0.5911,
+        "explanation": "Part of Animoca Brands, working on 3D racing or car\u2011themed titles with Web3 potential."
+    },
+    {
+        "company_name": "Vention Teams",
+        "similarity_score": 0.5899,
+        "explanation": "Engineering partner that builds Unity-based games for external partners and startups."
+    },
+    {
+        "company_name": "Moon Active",
+        "similarity_score": 0.5888,
+        "explanation": "Mobile game developer known for match-3 and casual games, very strong live operations."
+    },
+    {
+        "company_name": "Turbine Labs",
+        "similarity_score": 0.5859,
+        "explanation": "Small independent game studio building real-time multiplayer mobile games focused on social mechanics."
+    },
+    {
+        "company_name": "Decentral Games (DG)",
+        "similarity_score": 0.5846,
+        "explanation": "On-chain virtual world (Decentraland) casino + wearables economy; owners can earn crypto via games."
+    },
+    {
+        "company_name": "Playrix",
+        "similarity_score": 0.5842,
+        "explanation": "Major mobile game studio behind GardenScapes, Township, known for large player base and deep user retention."
+    },
+    {
+        "company_name": "Nexon",
+        "similarity_score": 0.5841,
+        "explanation": "Major publisher-developer; working on integrating blockchain for in-game asset ownership and trade."
+    },
+    {
+        "company_name": "Thirdverse",
+        "similarity_score": 0.5835,
+        "explanation": "Virtual world and VR game maker; building futuristic MMOs with blockchain-based land ownership."
+    },
+    {
+        "company_name": "Gamecrio Studios",
+        "similarity_score": 0.5835,
+        "explanation": "Indian game development firm specialized in Unity mobile, AR/VR, and cross-platform games"
+    },
+    {
+        "company_name": "Suffescom Solutions",
+        "similarity_score": 0.5825,
+        "explanation": "Web3 agency building blockchain games, NFT platforms, and game-related dApps."
+    },
+    {
+        "company_name": "Blockade Games",
+        "similarity_score": 0.5822,
+        "explanation": "Indie Web3 game studio making blockchain-based play\u2011to\u2011earn games and metaverse projects."
+    },
+    {
+        "company_name": "Hatch Entertainment",
+        "similarity_score": 0.5809,
+        "explanation": "Social games company that recently explored blockchain collectibles in casual games."
+    },
+    {
+        "company_name": "RedFox Labs",
+        "similarity_score": 0.5782,
+        "explanation": "Blockchain game incubator + dev studio; supporting gaming projects and infrastructure."
+    },
+    {
+        "company_name": "Gala Games",
+        "similarity_score": 0.5771,
+        "explanation": "Web3 gaming studio building decentralized games where players actually own their in-game assets."
+    },
+    {
+        "company_name": "RisingMax",
+        "similarity_score": 0.5753,
+        "explanation": "Small Web3 dev studio working on blockchain games, NFT drops, and decentralized experiences."
+    },
+    {
+        "company_name": "Stepico Games",
+        "similarity_score": 0.5747,
+        "explanation": "Ukrainian game development studio making web3 and Unity-based games, with a remote-first team."
+    },
+    {
+        "company_name": "Juegostudio",
+        "similarity_score": 0.5742,
+        "explanation": "Web3 game development studio doing client work on blockchain game titles, smart contracts + games."
+    },
+    {
+        "company_name": "Boomland (BoomBit)",
+        "similarity_score": 0.5719,
+        "explanation": "Polish studio building web3 RPG Hunt Royale; very player-first Web3 design & NFT mechanics."
+    },
+    {
+        "company_name": "Playco",
+        "similarity_score": 0.5707,
+        "explanation": "HTML5 and mobile social game studio, working on lightweight multiplayer experiences."
+    },
+    {
+        "company_name": "Niantic",
+        "similarity_score": 0.5702,
+        "explanation": "Augmented reality gaming company; known for Pok\u00e9mon GO, building location-based multiplayer experiences."
+    },
+    {
+        "company_name": "Worlds Adrift Dev (Bossa Studios)",
+        "similarity_score": 0.5699,
+        "explanation": "Open-world multiplayer MMO maker; previously built a physics-based online world; strong Unity heritage."
+    },
+    {
+        "company_name": "Vaporwave Studios",
+        "similarity_score": 0.5697,
+        "explanation": "Indie dev team doing 2D/3D Unity games, narrative, pixel art, available for dev partnerships."
+    },
+    {
+        "company_name": "Gamitronics",
+        "similarity_score": 0.5687,
+        "explanation": "Unity and VR/metaverse-focused studio from India \u2014 combining creative design + immersive tech."
+    },
+    {
+        "company_name": "Gomble Games",
+        "similarity_score": 0.5677,
+        "explanation": "South Korean blockchain\u2011gaming studio turning casual mobile games into team\u2011based social + Web3 experiences."
+    },
+    {
+        "company_name": "WhimsyGames",
+        "similarity_score": 0.5673,
+        "explanation": "Web3 game development company specializing in blockchain-based casual/social games."
+    },
+    {
+        "company_name": "Arcadia Games",
+        "similarity_score": 0.5669,
+        "explanation": "Indie multiplayer studio focusing on social, co-op games; exploring NFT economies."
+    },
+    {
+        "company_name": "BloomX Games",
+        "similarity_score": 0.5661,
+        "explanation": "Small Web3 startup making crypto-collectible card games and play-to-earn titles."
+    },
+    {
+        "company_name": "Miracle Bread",
+        "similarity_score": 0.5659,
+        "explanation": "Small Swedish game studio working on experimental mobile titles, low-budget but creative."
+    },
+    {
+        "company_name": "PlayToken",
+        "similarity_score": 0.5657,
+        "explanation": "Blockchain game studio building token\u2011driven social RPGs with on-chain economies."
+    },
+    {
+        "company_name": "PlayDapp",
+        "similarity_score": 0.564,
+        "explanation": "Web3 game hub + SDK provider enabling games to integrate blockchain rewards and NFT items."
+    },
+    {
+        "company_name": "Kevuru Games",
+        "similarity_score": 0.5639,
+        "explanation": "Full-stack game and metaverse development studio; builds Unity, Unreal, and blockchain games."
+    },
+    {
+        "company_name": "Ska Studios",
+        "similarity_score": 0.5635,
+        "explanation": "Very small indie studio (2 people) making tightly-designed action games, known for stylized gameplay."
+    },
+    {
+        "company_name": "PlayKey",
+        "similarity_score": 0.5628,
+        "explanation": "Cloud\u2011gaming platform blending traditional gaming and Web3 for streaming games and decentralized assets."
+    },
+    {
+        "company_name": "nWay",
+        "similarity_score": 0.5618,
+        "explanation": "Animoca Brands subsidiary, developing multiplayer games with potential blockchain integrations."
+    },
+    {
+        "company_name": "Ubisoft",
+        "similarity_score": 0.5613,
+        "explanation": "Global game publisher and developer across mobile, console, PC; very diverse portfolio."
+    },
+    {
+        "company_name": "Illuvium",
+        "similarity_score": 0.5606,
+        "explanation": "Web3 RPG and auto-battler game studio, creating a high-fidelity blockchain-based game world."
+    },
+    {
+        "company_name": "Supercell",
+        "similarity_score": 0.5597,
+        "explanation": "Mobile game powerhouse developer of Clash of Clans, Brawl Stars, with huge user monetization expertise."
+    },
+    {
+        "company_name": "Mythical Games",
+        "similarity_score": 0.5593,
+        "explanation": "Web3 gaming company building blockchain-native economies and player-owned assets for competitive games."
+    },
+    {
+        "company_name": "Star Atlas (Automata)",
+        "similarity_score": 0.5592,
+        "explanation": "Sci\u2011fi grand strategy MMO on blockchain with deep economy; built on Unreal + blockchain."
+    },
+    {
+        "company_name": "Vulcan Forged",
+        "similarity_score": 0.5587,
+        "explanation": "Web3 gaming platform with its own blockchain, game marketplace, and play-to-earn titles."
+    },
+    {
+        "company_name": "Enjin",
+        "similarity_score": 0.5581,
+        "explanation": "Platform for building blockchain games + NFTs; provides SDKs for developers to integrate assets."
+    },
+    {
+        "company_name": "Forte",
+        "similarity_score": 0.5574,
+        "explanation": "Web3 platform for game developers: builds tools, economies, NFT infrastructure for games."
+    },
+    {
+        "company_name": "Wemade",
+        "similarity_score": 0.5571,
+        "explanation": "Korean game company running WEMIX blockchain, building both traditional MMO and Web3 games."
+    },
+    {
+        "company_name": "Kwalee",
+        "similarity_score": 0.5568,
+        "explanation": "UK-based mobile game developer focused on hyper-casual games, publishing on iOS and Android."
+    },
+    {
+        "company_name": "Nazara Technologies \u2013 Web3 division",
+        "similarity_score": 0.5566,
+        "explanation": "Nazara\u2019s branch focused specifically on blockchain/NFT\u2011backed games in India and abroad."
+    },
+    {
+        "company_name": "Symbios Games",
+        "similarity_score": 0.5537,
+        "explanation": "Web3 game developer focused on merging blockchain ownership with traditional gameplay mechanics."
+    },
+    {
+        "company_name": "Epic Games",
+        "similarity_score": 0.5526,
+        "explanation": "Global game and engine company; creators of Unreal Engine, Fortnite; very large but relevant for enterprise."
+    },
+    {
+        "company_name": "Tripledot Studios",
+        "similarity_score": 0.5504,
+        "explanation": "London-based mobile game developer, famous for Woodoku and hyper-casual titles; scaling rapidly."
+    },
+    {
+        "company_name": "Horizon Blockchain Games (Sequence)",
+        "similarity_score": 0.547,
+        "explanation": "Developer platform & wallet + Web3 trading card game (Skyweaver); bridging dev tooling + game economy."
+    },
+    {
+        "company_name": "Dapper Labs",
+        "similarity_score": 0.5469,
+        "explanation": "Blockchain company behind Flow blockchain and collectible games like NBA Top Shot."
+    },
+    {
+        "company_name": "MOBOX",
+        "similarity_score": 0.5468,
+        "explanation": "Play\u2011to\u2011earn gaming platform combining DeFi and NFTs; mobile-focused with yield mechanics."
+    },
+    {
+        "company_name": "GLITCH",
+        "similarity_score": 0.545,
+        "explanation": "Indie game development firm in Minnesota, small team building original multiplayer and indie titles."
+    },
+    {
+        "company_name": "Unity Technologies",
+        "similarity_score": 0.5439,
+        "explanation": "Engine provider for many game companies; their tech is used by indie, mobile, and web3 studios."
+    },
+    {
+        "company_name": "Tequila Works",
+        "similarity_score": 0.5415,
+        "explanation": "Spanish indie studio, historically made narrative and atmospheric games; recently faced business challenges."
+    },
+    {
+        "company_name": "Yudiz Solutions",
+        "similarity_score": 0.5412,
+        "explanation": "Game dev studio in India doing Unity, Unreal, AR/VR, and Web3 gaming projects."
+    },
+    {
+        "company_name": "Nakamoto Games",
+        "similarity_score": 0.5412,
+        "explanation": "Play\u2011to\u2011earn hyper\u2011casual platform with >160 blockchain games on Polygon."
+    },
+    {
+        "company_name": "LiquidX Studios",
+        "similarity_score": 0.5392,
+        "explanation": "Blockchain studio reviving Pixelmon IP, building mini\u2011games under Pixelmon, anime integration planned."
+    },
+    {
+        "company_name": "ReadyCode",
+        "similarity_score": 0.5379,
+        "explanation": "This company matches the ICP because: Polish modding-as-a-service company, enabling mod tools for Unity/Unreal games. (branden.biz)"
+    },
+    {
+        "company_name": "Tyrant Films",
+        "similarity_score": 0.5373,
+        "explanation": "Swedish company making both games and cinematic interactive experiences, part of Nordic dev."
+    },
+    {
+        "company_name": "Notch (Mojang)",
+        "similarity_score": 0.5372,
+        "explanation": "While Mojang is large, Notch team spinouts explore web3 via block-based game mechanics."
+    },
+    {
+        "company_name": "Yield Guild Games (YGG)",
+        "similarity_score": 0.5354,
+        "explanation": "Gaming guild + Web3 investor; invests in NFT game assets and supports play\u2011to\u2011earn guild members."
+    },
+    {
+        "company_name": "Fictions, Inc.",
+        "similarity_score": 0.5347,
+        "explanation": "Publisher for indie teams; supports small\u2011to\u2011mid\u2011sized game dev teams to bring their games to market."
+    },
+    {
+        "company_name": "CD Projekt Red",
+        "similarity_score": 0.5346,
+        "explanation": "Polish AAA game studio behind The Witcher and Cyberpunk; high production values and deep narrative games."
+    },
+    {
+        "company_name": "Metapurse",
+        "similarity_score": 0.5335,
+        "explanation": "Investment fund + dev organization that backs NFT gaming projects and builds play\u2011to\u2011earn titles."
+    },
+    {
+        "company_name": "TinyTap",
+        "similarity_score": 0.5334,
+        "explanation": "Edu\u2011gaming platform under Animoca Brands; exploring NFTs for educational in-game rewards."
+    },
+    {
+        "company_name": "Wax",
+        "similarity_score": 0.5324,
+        "explanation": "Blockchain platform for gaming and NFTs; powers many web3 games with low friction minting and trading."
+    },
+    {
+        "company_name": "Rolocule Games",
+        "similarity_score": 0.5311,
+        "explanation": "Indian studio building motion\u2011control, AR\u2011fitness style Unity games."
+    },
+    {
+        "company_name": "Underdogs Studio",
+        "similarity_score": 0.5309,
+        "explanation": "Indie Unity studio based in Mumbai, focused on original and creative small\u2011team games."
+    },
+    {
+        "company_name": "Surgent Studios",
+        "similarity_score": 0.5271,
+        "explanation": "Indie studio partnered with Pocketpair Publishing for new horror game; focus on narrative + Web3."
+    },
+    {
+        "company_name": "BombPixel",
+        "similarity_score": 0.527,
+        "explanation": "Blockchain game company making a physics-based competitive game where players build arenas."
+    },
+    {
+        "company_name": "Rovio Entertainment",
+        "similarity_score": 0.5247,
+        "explanation": "Finnish mobile game company behind Angry Birds franchise, large user base and proven monetization."
+    },
+    {
+        "company_name": "Sky Mavis",
+        "similarity_score": 0.5242,
+        "explanation": "The company behind Axie Infinity, pioneering in play-to-earn and blockchain-based game economies."
+    },
+    {
+        "company_name": "Aurory",
+        "similarity_score": 0.5221,
+        "explanation": "Web3 game studio building a turn\u2011based RPG in a richly crafted universe; NFT-powered characters."
+    },
+    {
+        "company_name": "Animoca Brands",
+        "similarity_score": 0.5169,
+        "explanation": "A leading Hong Kong-based blockchain gaming and web3 company, known for The Sandbox and NFT games."
+    },
+    {
+        "company_name": "UFO Gaming",
+        "similarity_score": 0.5168,
+        "explanation": "Space-themed web3 gaming studio on Immutable X, building metaverse-style play-to-earn experiences."
+    },
+    {
+        "company_name": "Pocketpair",
+        "similarity_score": 0.5154,
+        "explanation": "Developer of Palworld, recently launched a publishing arm for indie / web3 developers."
+    },
+    {
+        "company_name": "Game-Ace",
+        "similarity_score": 0.5134,
+        "explanation": "Crypto-game development studio; built polygon\u2011based games and Web3-native game dev."
+    },
+    {
+        "company_name": "Immutable",
+        "similarity_score": 0.5079,
+        "explanation": "Australian crypto-game studio building scalable blockchain games like Gods Unchained and Guild of Guardians."
+    },
+    {
+        "company_name": "Big Ant Studios",
+        "similarity_score": 0.5051,
+        "explanation": "Australian developer specialized in sports games (cricket, rugby, etc.), uses Unity and proprietary tech."
+    },
+    {
+        "company_name": "Alien Worlds (Dacoco)",
+        "similarity_score": 0.4995,
+        "explanation": "Blockchain-based metaverse game where players mine and govern planets in a DAO-like structure."
+    },
+    {
+        "company_name": "Edym Pixels",
+        "similarity_score": 0.4992,
+        "explanation": "Swedish indie studio founded in northern Sweden, focused on experimental and narrative games."
+    },
+    {
+        "company_name": "Skrice Studios",
+        "similarity_score": 0.4916,
+        "explanation": "Mobile strategy blockchain studio; Heroes of Mavia is a flagship game built on Base."
+    },
+    {
+        "company_name": "Logic Simplified",
+        "similarity_score": 0.4871,
+        "explanation": "Dehradun-based dev team working on AI\u2011simulated game systems using Unity."
+    },
+    {
+        "company_name": "Planetarium",
+        "similarity_score": 0.4839,
+        "explanation": "South Korean developer making Nine Chronicles, running its own Heimdall blockchain."
+    },
+    {
+        "company_name": "Twin Atlas",
+        "similarity_score": 0.4785,
+        "explanation": "Merged Roblox\u2011based studios (RedManta + Sonar) \u2014 exploring web3/social play in virtual spaces."
+    },
+    {
+        "company_name": "Big Time Studios",
+        "similarity_score": 0.478,
+        "explanation": "Multiplayer action\u2011RPG on Ethereum, built by veterans from Epic, Blizzard, Riot; player-owned assets."
+    },
+    {
+        "company_name": "Yahaha Studios",
+        "similarity_score": 0.4636,
+        "explanation": "No-code, 3D game-creation platform for multiplayer interactive content; founded by ex-Unity devs."
+    },
+    {
+        "company_name": "My Crypto Heroes",
+        "similarity_score": 0.447,
+        "explanation": "Blockchain RPG on Ethereum where players own heroes as NFTs and battle in strategic turn-based fights."
+    }
+]
